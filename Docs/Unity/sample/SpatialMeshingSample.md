@@ -10,9 +10,9 @@
 
 `ARMeshManager`  需要作为 `ARSessionOrigin` 的子对象。该组件引用了在网格可用时将生成的 `MeshFilter` 。由于网格本身不包含法线、切线、纹理坐标（Normals, Tangents, Texture Coordinates）和颜色数据，因此这些选项被关闭。
 
->**警告**
+> **警告**
 >
->将 `ARMeshManager` 附加到摄像机对象上会导致对象的 **比例 （Scale）** 发生变化，从原始的 (1, 1, 1) 变为 (10, 10, 10) 。这将导致在恢复原始摄像机比例之前，应用程序在头戴设备上出现渲染问题。
+> 将 `ARMeshManager` 附加到摄像机对象上会导致对象的 **比例 （Scale）** 发生变化，从原始的 (1, 1, 1) 变为 (10, 10, 10) 。这将导致在恢复原始摄像机比例之前，应用程序在头戴设备上出现渲染问题。
 
 ![1](./pic-SpatialMeshingSample/1.png)
 
@@ -25,7 +25,7 @@
 
 ### 示例代码
 
-```
+``` csharp
     private ARMeshManager _meshManager;
 
         public void Awake() {

@@ -18,7 +18,7 @@
 
 要在编辑器模式下尝试这些示例，请打开 `Assets > Samples > QCHT Unity Interactions >  4.0.0-pre.11 > QCHT Interactions Samples > Menu > Scenes` 中提供的 **QCHT 示例 - 目录** 场景。如需在编辑器模拟模式下进行交互，请参考 [基本场景设置](./BasicSceneSetup.md) 文档。
 
->**重要提示**
+> **重要提示**
 >
 >在测试手部跟踪示例之前，您需要将所有场景添加到构建设置中。
 

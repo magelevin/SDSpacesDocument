@@ -15,9 +15,9 @@
 
 骁龙 Spaces SDK 软件开以压缩文件的形式提供。请按照 [Unity 说明](https://docs.unity3d.com/Manual/upm-ui-tarball.html)，用 *Unity Package* 文件夹下的 tgz 文件，将软件包导入到项目中。
 
->**提示**
+> **提示**
 >
->为了使软件包在列表中显示相对路径（更适合版本控制）而非绝对路径，请将 tgz 文件复制到您项目的 Packages 目录中，然后从那里进行添加。
+> 为了使软件包在列表中显示相对路径（更适合版本控制）而非绝对路径，请将 tgz 文件复制到您项目的 Packages 目录中，然后从那里进行添加。
 
 ### 导入 XR Interaction Toolkit
 
@@ -80,7 +80,7 @@ Snapdragon Spaces Unity 软件包中包含一个功能，能够在主机设备�
 
 ![6](./pic-SetupGuideUnity/6.png)
 
->**警告**
+> **警告**
 >
 >某些情况下，添加自定义控制器档案可能会导致 Gradle 缓存错误。如果出现这种情况，删除项目文件夹中 `Temp > gradleOut` 下生成的临时 Gradle 项目文件夹，可能会解决该问题。
 

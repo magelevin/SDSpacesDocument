@@ -8,9 +8,9 @@
 
 首先，请确保在 OpenXR 项目设置中启用 `图像跟踪`（`Image Tracking`）功能。
 
->**提示**
+> **提示**
 >
->您可以在 [测试目标图像](./../../designux/ImageTargetsToTry.md) 部分找到使用的参考图像。 
+> 您可以在 [测试目标图像](./../../designux/ImageTargetsToTry.md) 部分找到使用的参考图像。 
 
 图像目标通过 `XR Reference Image Library` XR 参考图像库提供给底层 XR 插件。添加的图像会生成一个名称，稍后用于识别已跟踪的目标，并且有一个重要的标志 **保留运行时纹理（Keep Texture at Runtime）**，该值应设置为 `true`。子系统能够以此将纹理数据传递给 Snapdragon Spaces Services 以进行跟踪。
 
@@ -24,11 +24,11 @@
 
 通过订阅 `AR 跟踪图像管理器` 的方法以侦听跟踪图像的更改，适当的 UI 信息将被设置为跟踪图像的状态和位置，如下面简化的代码示例所示。
 
->**警告**
+> **警告**
 >
->为了此示例能够正常工作，`XR 参考图像库` 中设置的参考图像名称必须是唯一的。任何相同的名称都会导致 `_trackedImages` 字典中的哈希码冲突（a hash code collision）。
+> 为了此示例能够正常工作，`XR 参考图像库` 中设置的参考图像名称必须是唯一的。任何相同的名称都会导致 `_trackedImages` 字典中的哈希码冲突（a hash code collision）。
 
-```
+``` csharp
     ...
 
     private Dictionary<TrackableId, ...> _trackedImages = new Dictionary<TrackableId, ...>();
@@ -77,7 +77,7 @@
 
 启动应用程序时，每个跟踪图像最初将使用 `Spaces Reference Image Configurator` 组件中定义的 **Tracking Mode**，但如果需要，可以在运行时更新此值，如下面的简化示例代码所示。
 
-```
+``` csharp
     public SpacesReferenceImageConfigurator referenceImageConfigurator;
     private Dictionary<TrackableId, ...> _trackedImages = new Dictionary<TrackableId, ...>();
     ...

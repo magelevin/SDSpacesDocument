@@ -8,7 +8,7 @@
 
 进行放置时，透明放置 Gizmo 视觉效果（placement gizmo visual）会漂浮在相机中心 1 米远的地方。每帧都会从头部中心向前投射一条射线，对放置 Gizmo 相对于真实世界平面的位置来进行定位。如果检测到命中，则放置 Gizmo 也会变成黄色。在主机控制器上轻敲触控板或与 UI 面板上的注视交互器（gaze interactor）进行交互后，将会实例化出一个空的游戏对象 （GameObject） 和一个 AR锚点游戏对象 （ARAnchor GameObject）。空的游戏对象有透明的 Gizmo 网格，并将由 AR 会话 （AR Session）跟踪。AR 锚点 gizmo 将通过 `ARAnchorManager` 的 `anchorsChanged` 事件进行更新，以表示其跟踪状态。
 
-```
+``` csharp
     public GameObject GizmoTrackedAnchor;
     public GameObject GizmoUntrackedAnchor;
 
@@ -47,7 +47,7 @@
 
 通过在 `AR 锚点管理器`旁边添加 `Spaces 锚点储存` 组件，可以将锚点保存在本地以便在以后的会话进行识别和跟踪。该组件提供以下 API 用于加载和保存锚点、删除已保存的锚点以及清除锚点的本地存储。
 
-```
+``` csharp
 namespace Qualcomm.Snapdragon.Spaces
 {
     public class SpacesAnchorStore

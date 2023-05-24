@@ -14,7 +14,7 @@
 
  `Spaces Hand Manager` 手部管理器组件属于 `ARTrackableManager` （AR 可跟踪管理器）类型，其编程方式与 **AR Foundation** 的所有其他管理器类似 —— 通过提供回调函数来检索以对项目形式进行添加、更新和删除等更改。
 
-```
+``` csharp
 public void Start() {
     spacesHandManager.handsChanged += OnHandsChanged;
 }
@@ -60,7 +60,7 @@ private void OnHandsChanged(SpacesHandsChangedEventArgs args) {
     - **FlipRatio** 是 -1 到 1 之间的浮点值，表示手势是从背面（-1）、正面（1）还是中间检测到的。
     有关手势的更多信息，请参阅 [交互手势文档](./../../designux/InteractionGestures.md)。
 
-```
+``` csharp
 namespace Qualcomm.Snapdragon.Spaces.SpacesHand
 {
     public enum JointType
@@ -95,7 +95,7 @@ namespace Qualcomm.Snapdragon.Spaces.SpacesHand
 }
 ```
 
-```
+``` csharp
 namespace Qualcomm.Snapdragon.Spaces.SpacesHand
 {
     public enum GestureType

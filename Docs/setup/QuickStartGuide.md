@@ -14,7 +14,8 @@
 
 继续阅读以下文档页面，在支持 Spaces 的硬件上进行设备设置，并学习如何运行 Spaces 应用程序。
 
-> **硬件开发套件** 
-> 
-> 若需在真机上测试，您需要从硬件开发套件页面列出的设备中进行选择。
-
+<div class="alert alert-block alert-success">
+<b>硬件开发套件</b>
+<br/>
+若需在真机上测试，您需要从 <a href="https://spaces.qualcomm.com/developer-kit/">硬件开发套件页面</a> 列出的设备中进行选择。
+</div>

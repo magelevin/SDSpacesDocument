@@ -4,9 +4,9 @@
 
 总结一下，首先，[安装 Snapdragon Spaces Package](./../SetupGuideUnity.md)。手部追踪所需的最低版本为 0.6.0。要利用完整的手部追踪功能选项板（feature palette），还应安装接下来列出的包。
 
->**警告**
+> **警告**
 >
->**必须启用** [Spaces Services 应用程序的相机权限](./../../setup/LaunchingSpacesAppsA3.md#设置-snapdragon-spaces-services)，手部跟踪功能才能正常运行。
+> **必须启用** [Spaces Services 应用程序的相机权限](./../../setup/LaunchingSpacesAppsA3.md#设置-snapdragon-spaces-services)，手部跟踪功能才能正常运行。
 
 ## QCHT Unity 交互软件包 4
 

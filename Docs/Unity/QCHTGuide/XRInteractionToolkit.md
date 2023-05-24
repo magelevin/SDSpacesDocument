@@ -4,7 +4,7 @@
 
 > **弃用**
 >
-> 自 Snapdragon Spaces 版本 0.12.1 起，QCHT Avatar 已弃用。您现在可以引用 [XRHandController](./xr) 组件。
+> 自 Snapdragon Spaces 版本 0.12.1 起，QCHT Avatar 已弃用。您现在可以引用 [XRHandController](./XRHandController.md) 组件。
 
 
 > **警告**

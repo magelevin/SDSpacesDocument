@@ -55,7 +55,7 @@
 
 控制器的触觉反馈通过 **SampleController** 的 [发送触觉反馈脉冲（SendHapticImpulse）](https://docs.unity3d.com/ScriptReference/XR.InputDevice.SendHapticImpulse.html) 功能发送到 XR 控制器管理器。当调用 `SendHapticImpulse` 时，无论是按下还是滚动 UI 按钮，都会在 `主机控制器（host controller）` and `XR 控制器（XR Controllers）` 上触发触觉脉冲。
 
->**警告**
+> **警告**
 >
 >目前，不论触发动作的控制器是哪个，两个 XR 控制器上均会感受到触觉反馈。
 

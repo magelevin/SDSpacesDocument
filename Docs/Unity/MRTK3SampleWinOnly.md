@@ -115,7 +115,7 @@
         - 找到 `UX.Button.Icon.Char` 子对象，将 `SpriteRenderer` 的 `Sprite` 更改为实心圆。
         - 找到 `TextMeshPro` 子对象，将 `文本输入（Text Input）`设置为 `显示（Show）`。
 - 第三个按钮，您需要先创建一个新的脚本并将其添加到立方体上。该脚本应该有一个公开可访问的功能，例如
-```
+``` java
     ...
     public void Quit() {
         Application.Quit();
@@ -163,7 +163,7 @@
 
 ## 手部跟踪
 
->**注意**
+> **注意**
 >
 > 您需要在目标设备上安装 Snapdragon Spaces Services 0.11.1 或更高版本以支持手部跟踪。在具有早期版本 Snapdragon Spaces Services 的设备上，为 MRTK 手部跟踪构建的应用程序可能无法按预期工作。
 

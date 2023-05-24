@@ -12,12 +12,13 @@
 
 手机设置完成后，请查看 `设置 -> 系统更新 -> 检查更新` ，确保必要更新已进行下载并完成安装。手机系统软件的最低可运行版本为 `S3SH32.12-41-4.` .
 
-> **注意**
-因不同地区可用的手机型号版本差异，实际的手机系统版本会略有不同。
-手机图像：
-S1SH32.55-78-**8** （摩托罗拉 edge 30 pro）或
-S1SH32.55-78-**10** （摩托罗拉 edge+）
-> 
+
+<div class="alert alert-block alert-success">
+<b>注意：</b>
+<br/>
+目前 Lenovo UDC 应用程序不会将 ThinkReality 应用程序部署到运行 Android 版本 13 系统软件的设备。 建议需要访问 ThinkReality 应用程序的用户在部署之前，继续使用 Android 版本 12。
+<br/>
+</div>
 
 ![1](./pic-ThinkRealityA3Setup/1.png)
 
@@ -35,15 +36,17 @@ S1SH32.55-78-**10** （摩托罗拉 edge+）
 
 A3 眼镜首次连接到摩托罗拉手机时，将自动启用并启动 **UDC** 应用程序。
 
-> **警告**
-> 
-> **不要** 从 **Google Play 商店** 中下载 Lenovo UDC App，这个版本中不包括 Snapdragon Spaces 开发组件。
-> 
+<div class="alert alert-block alert-warning">
+<b>警告：</b>
+<br/>
+<b>不要</b> 从 <b>Google Play 商店</b> 中下载 Lenovo UDC App，这个版本中不包括 Snapdragon Spaces 开发组件。
+</div>
 
-> **注意**
-> 
-> UDC 应用启用后，请断开与 A3 眼镜的连接。在后续设置过程中接收其他眼镜固件更新时，再与 A3 眼镜进行重连。
-> 
+<div class="alert alert-block alert-warning">
+<b>注意：</b>
+<br/>
+UDC 应用启用后，请断开与 A3 眼镜的连接。在后续设置过程中接收其他眼镜固件更新时，再与 A3 眼镜进行重连。
+</div>
 
 ## 第五步：接受 UDC 条款和权限（应用程序中的步骤 1、2 和 3）
 

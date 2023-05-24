@@ -1,0 +1,14 @@
+{
+    "plugins": [
+	"valine", "expandable-chapters"
+    ],
+    "pluginsConfig": {
+        "valine": {
+            "appId": "pi19b1PW1JqRtnCTGBUFs3V0-gzGzoHsz",
+            "appKey": "XcYzFyElInniKkLYgboqed6l",
+            "recordIP": true,
+            "placeholder": "请留下您的宝贵意见，将在审核后显示",
+            "requiredFields": ["nick","mail"]
+        }
+    }
+}

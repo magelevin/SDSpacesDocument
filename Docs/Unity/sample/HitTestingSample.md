@@ -10,7 +10,7 @@
 
 射线检测管理器的 `Raycast` 函数将根据射线是否命中平面返回布尔值。命中结果将被添加到 `ARRaycastHit` 列表中，并按距离升序排序（即，最近的排在最前）。
 
-```
+``` csharp
     public void Update() {
         CastRay();
         _activeIndicator.transform.position = _desiredPosition;

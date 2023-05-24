@@ -21,7 +21,7 @@
 
 相机管理器的 `TryAcquireLatestCpuImage` 尝试获取最新 CPU 图像函数将返回一个 `XRCpuImage` 对象，该对象表示所选设备相机中的单个原始图像。可以使用 `XRCpuImage` 的 `Convert` 转换函数提取此图像的原始像素数据，该函数返回一个 `NativeArray<byte>`。
 
->**重要**
+> **重要**
 >
 >`XRCpuImage` 对象在转换后必须进行显式处理。要做到这一点，请使用 `XRCpuImage`  的`Dispose` 曝光函数。如果未处理 `XRCpuImage`  对象，则会泄漏内存，直到相机获取子系统被销毁。
 
@@ -31,7 +31,7 @@
 
 下面的示例代码首先从 `AR Camera Manager` 请求一个 CPU 图像。如果成功，它将 `XRCpuImage`  的原始像素数据直接提取到一个受控 `Texture2D` 的 `GetRawTextureData<byte>` 缓冲区中，并在之后使用 `Apply` 函数应用纹理缓冲区。最后，它更新目标 `RawImage` 中的纹理，使新帧显示在应用程序 UI 中。
 
-```
+``` csharp
 public RawImage CameraRawImage;
 
 private ARCameraManager _cameraManager;
@@ -81,7 +81,7 @@ private unsafe void UpdateCameraTexture(XRCpuImage image) {
 
 下面的示例代码检索所选传感器的内部参数，并显示在应用程序 UI 中。
 
-```
+``` csharp
 public Text[] ResolutionTexts;
 public Text[] FocalLengthTexts;
 public Text[] PrincipalPointTexts;

@@ -18,9 +18,9 @@
 
 ![img1](./pic-SetupGuideUE/4.png)
 
->**警告**
+> **警告**
 >
->如果您未在引擎中创建 `Marketplace` 文件夹，您可以在 `Plugins` 文件夹内进行创建，然后复制到 `SnapdragonSpaces` 文件夹。请注意，虚幻引擎仅会在遵守建议的路径处检测得到该插件。
+> 如果您未在引擎中创建 `Marketplace` 文件夹，您可以在 `Plugins` 文件夹内进行创建，然后复制到 `SnapdragonSpaces` 文件夹。请注意，虚幻引擎仅会在遵守建议的路径处检测得到该插件。
 
 ## 步骤 3：导入示例
 
