@@ -124,7 +124,7 @@ UDC 应用启用后，请断开与 A3 眼镜的连接。在后续设置过程中
 
 要使用此方法，请按照以下步骤提交设备序列号：
 
-前往 https://spaces.qualcomm.com/settings/
+前往 [https://spaces.qualcomm.com/settings/](https://spaces.qualcomm.com/settings/)
 
 按照“手机序列号”部分下的说明，并选择“管理我的设备”。
 
