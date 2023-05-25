@@ -28,8 +28,8 @@
   * 手部跟踪
     * [最佳实践](Docs/designux/BestPractices.md)
     * [交互手势](Docs/designux/InteractionGestures.md)
-  * 自定义控制器项目
-  * 测试目标图像
+  * [自定义控制器项目](Docs/designux/CustomControllerProject.md)
+  * [测试目标图像](Docs/designux/ImageTargetsToTry.md)
 * [Unity](unity/README.md)
   * [Unity 设置指南](Docs/Unity/SetupGuideUnity.md)
   * [场景设置](Docs/Unity/SceneSetup.md)
