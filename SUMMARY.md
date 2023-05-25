@@ -2,14 +2,14 @@
 
 * [快速入门](README.md)
   * [Snapdragon Spaces 概述](Docs/setup/QuickStartGuide.md)
-  * **硬件设置**
+  * 硬件设置
     * [联想 ThinkReality A3 开发套件](Docs/setup/ThinkRealityA3Setup.md)
-  * [运行应用程序](kuai-su-ru-men/yun-hang-ying-yong-cheng-xu/README.md)
+  * 运行应用程序
     * [在 A3 眼镜运行应用程序](Docs/setup/LaunchingSpacesAppsA3.md)
-* [架构](jia-gou/README.md)
+* 架构
   * [OpenXR](Docs/architecture/OpenXRForSpaces.md)
   * [自定义启动器](Docs/architecture/CustomLauncher.md)
-* [功能概述](gong-neng-gai-shu/README.md)
+* 功能概述
   * [通用功能](Docs/features/GeneralFeatures.md)
     * [位置跟踪](http://localhost:5000/s/-Lwm1q88GPntLSmU7Ex6/gong-neng-gai-shu/generalfeatures#%E4%BD%8D%E7%BD%AE%E8%B7%9F%E8%B8%AAA)
     * [本地空间锚点](http://localhost:5000/s/-Lwm1q88GPntLSmU7Ex6/gong-neng-gai-shu/generalfeatures#%E6%9C%AC%E5%9C%B0%E7%A9%BA%E9%97%B4%E9%94%9A%E7%82%B9)
@@ -24,12 +24,12 @@
     * [平面检测](http://localhost:5000/s/-Lwm1q88GPntLSmU7Ex6/gong-neng-gai-shu/environmentalfeatures#%E5%B9%B3%E9%9D%A2%E6%A3%80%E6%B5%8B)
     * [图像跟踪](http://localhost:5000/s/-Lwm1q88GPntLSmU7Ex6/gong-neng-gai-shu/environmentalfeatures#%E5%9B%BE%E5%83%8F%E8%B7%9F%E8%B8%AA)
     * [空间网格划分](http://localhost:5000/s/-Lwm1q88GPntLSmU7Ex6/gong-neng-gai-shu/environmentalfeatures#%E7%A9%BA%E9%97%B4%E7%BD%91%E6%A0%BC%E5%88%92%E5%88%86)
-* [设计与用户体验](she-ji-yu-yong-hu-ti-yan/README.md)
-  * [手部跟踪](she-ji-yu-yong-hu-ti-yan/shou-bu-gen-zong/README.md)
+* 设计与用户体验
+  * 手部跟踪
     * [最佳实践](Docs/designux/BestPractices.md)
     * [交互手势](Docs/designux/InteractionGestures.md)
-  * [自定义控制器项目](Docs/designux/CustomControllerProject.md)
-  * [测试目标图像](Docs/designux/ImageTargetsToTry.md)
+  * 自定义控制器项目
+  * 测试目标图像
 * [Unity](unity/README.md)
   * [Unity 设置指南](Docs/Unity/SetupGuideUnity.md)
   * [场景设置](Docs/Unity/SceneSetup.md)
