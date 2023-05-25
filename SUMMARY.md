@@ -2,7 +2,7 @@
 
 * [快速入门](README.md)
   * [Snapdragon Spaces 概述](Docs/setup/QuickStartGuide.md)
-  * [硬件设置](kuai-su-ru-men/ying-jian-she-zhi/README.md)
+  * **硬件设置**
     * [联想 ThinkReality A3 开发套件](Docs/setup/ThinkRealityA3Setup.md)
   * [运行应用程序](kuai-su-ru-men/yun-hang-ying-yong-cheng-xu/README.md)
     * [在 A3 眼镜运行应用程序](Docs/setup/LaunchingSpacesAppsA3.md)
